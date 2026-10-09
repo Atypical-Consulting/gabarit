@@ -1,0 +1,6 @@
+.godot/
+.impeccable/review/
+bin/
+obj/
+*.translation
+.impeccable/questions/

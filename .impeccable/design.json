@@ -1,0 +1,556 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-09T22:09:48+00:00",
+  "title": "Design System: Gabarit",
+  "extensions": {
+    "colorMeta": {
+      "ground": {
+        "role": "neutral",
+        "displayName": "Ground",
+        "canonical": "#f2f2f0",
+        "tonalRamp": [
+          "#0b0b0a",
+          "#242423",
+          "#40403e",
+          "#5e5e5c",
+          "#7d7d7b",
+          "#9e9e9d",
+          "#c4c4c2",
+          "#eeeeec"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Paper",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "band": {
+        "role": "neutral",
+        "displayName": "Band",
+        "canonical": "#e9e9e6",
+        "tonalRamp": [
+          "#0b0b09",
+          "#242422",
+          "#40403d",
+          "#5e5e5b",
+          "#7d7d7b",
+          "#9e9e9c",
+          "#c4c4c1",
+          "#efefec"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#1b1c1e",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#3f4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c3c4c7",
+          "#edeef1"
+        ]
+      },
+      "ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink",
+        "canonical": "#55585c",
+        "tonalRamp": [
+          "#090b0e",
+          "#222428",
+          "#3d4044",
+          "#5b5e62",
+          "#7a7d82",
+          "#9b9fa3",
+          "#c1c4c9",
+          "#ebeff4"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Graphite Rule",
+        "canonical": "#7f8287",
+        "tonalRamp": [
+          "#090b0f",
+          "#222428",
+          "#3d4044",
+          "#5b5e62",
+          "#7a7d82",
+          "#9b9fa4",
+          "#c1c4ca",
+          "#ebeff4"
+        ]
+      },
+      "hairline": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#d6d6d2",
+        "tonalRamp": [
+          "#0b0b09",
+          "#242421",
+          "#40403d",
+          "#5e5e5a",
+          "#7d7d7a",
+          "#9f9f9b",
+          "#c4c4c0",
+          "#efefeb"
+        ]
+      },
+      "action": {
+        "role": "primary",
+        "displayName": "Drawing-Office Blue",
+        "canonical": "#0b5cad",
+        "tonalRamp": [
+          "#000043",
+          "#001c64",
+          "#003d87",
+          "#165daa",
+          "#3b7ece",
+          "#5da1f3",
+          "#82c8ff",
+          "#acf3ff"
+        ]
+      },
+      "action-deep": {
+        "role": "primary",
+        "displayName": "Drawing-Office Blue, pressed deep",
+        "canonical": "#094e93",
+        "tonalRamp": [
+          "#00003f",
+          "#001e60",
+          "#003e81",
+          "#1f5ea4",
+          "#417fc8",
+          "#62a1ed",
+          "#88c8ff",
+          "#b1f3ff"
+        ]
+      },
+      "on-action": {
+        "role": "primary",
+        "displayName": "On Action",
+        "canonical": "#ffffff",
+        "tonalRamp": [
+          "#0b0b0b",
+          "#242424",
+          "#404040",
+          "#5d5d5d",
+          "#7d7d7d",
+          "#9e9e9e",
+          "#c4c4c4",
+          "#eeeeee"
+        ]
+      },
+      "action-tint": {
+        "role": "primary",
+        "displayName": "Selection Wash",
+        "canonical": "#dce7f4",
+        "tonalRamp": [
+          "#050c14",
+          "#1d252e",
+          "#38414b",
+          "#555f6a",
+          "#747e8a",
+          "#95a0ac",
+          "#bbc5d2",
+          "#e5f0fd"
+        ]
+      },
+      "danger": {
+        "role": "tertiary",
+        "displayName": "Error Red",
+        "canonical": "#b3261e",
+        "tonalRamp": [
+          "#320000",
+          "#550000",
+          "#790e0b",
+          "#9d362c",
+          "#c2574b",
+          "#e8796b",
+          "#ff9f8f",
+          "#ffc9b8"
+        ]
+      },
+      "slate-ground": {
+        "role": "neutral",
+        "displayName": "Ground (Slate)",
+        "canonical": "#131416",
+        "tonalRamp": [
+          "#0a0b0d",
+          "#232426",
+          "#3e4042",
+          "#5c5e60",
+          "#7c7d80",
+          "#9d9ea1",
+          "#c3c4c7",
+          "#edeef1"
+        ]
+      },
+      "slate-paper": {
+        "role": "neutral",
+        "displayName": "Paper (Slate)",
+        "canonical": "#1c1e21",
+        "tonalRamp": [
+          "#090b0e",
+          "#222427",
+          "#3e4043",
+          "#5b5e61",
+          "#7b7d81",
+          "#9c9fa2",
+          "#c1c4c8",
+          "#eceff3"
+        ]
+      },
+      "slate-band": {
+        "role": "neutral",
+        "displayName": "Band (Slate)",
+        "canonical": "#25282c",
+        "tonalRamp": [
+          "#090b0f",
+          "#212428",
+          "#3d4044",
+          "#5a5e62",
+          "#7a7e82",
+          "#9b9fa4",
+          "#c0c4ca",
+          "#ebeff4"
+        ]
+      },
+      "slate-ink": {
+        "role": "neutral",
+        "displayName": "Ink (Slate)",
+        "canonical": "#ecebe6",
+        "tonalRamp": [
+          "#0c0b08",
+          "#252420",
+          "#41403c",
+          "#5e5e59",
+          "#7e7d79",
+          "#9f9e9a",
+          "#c5c4bf",
+          "#f0eee9"
+        ]
+      },
+      "slate-ink-muted": {
+        "role": "neutral",
+        "displayName": "Muted Ink (Slate)",
+        "canonical": "#a5a8ad",
+        "tonalRamp": [
+          "#090b0f",
+          "#222428",
+          "#3d4044",
+          "#5b5e62",
+          "#7b7d82",
+          "#9c9fa3",
+          "#c1c4c9",
+          "#ebeff4"
+        ]
+      },
+      "slate-rule": {
+        "role": "neutral",
+        "displayName": "Graphite Rule (Slate)",
+        "canonical": "#7c8086",
+        "tonalRamp": [
+          "#090b10",
+          "#212429",
+          "#3c4045",
+          "#5a5e64",
+          "#7a7e83",
+          "#9b9fa5",
+          "#c0c4cb",
+          "#eaeff6"
+        ]
+      },
+      "slate-hairline": {
+        "role": "neutral",
+        "displayName": "Hairline (Slate)",
+        "canonical": "#34373c",
+        "tonalRamp": [
+          "#090b0f",
+          "#212429",
+          "#3d4045",
+          "#5a5e63",
+          "#7a7d83",
+          "#9b9fa5",
+          "#c0c4cb",
+          "#ebeff5"
+        ]
+      },
+      "slate-action": {
+        "role": "primary",
+        "displayName": "Drawing-Office Blue (Slate)",
+        "canonical": "#7ab0f0",
+        "tonalRamp": [
+          "#000237",
+          "#002156",
+          "#074077",
+          "#2b5f99",
+          "#4c80bd",
+          "#6ca2e1",
+          "#91c8ff",
+          "#bbf3ff"
+        ]
+      },
+      "slate-action-deep": {
+        "role": "primary",
+        "displayName": "Drawing-Office Blue, pressed deep (Slate)",
+        "canonical": "#6896cc",
+        "tonalRamp": [
+          "#000531",
+          "#002350",
+          "#144070",
+          "#336092",
+          "#5380b5",
+          "#73a2d9",
+          "#98c8ff",
+          "#c1f3ff"
+        ]
+      },
+      "slate-on-action": {
+        "role": "primary",
+        "displayName": "On Action (Slate)",
+        "canonical": "#0d1520",
+        "tonalRamp": [
+          "#050b16",
+          "#1c2530",
+          "#37404d",
+          "#545e6c",
+          "#747e8d",
+          "#949faf",
+          "#bac5d5",
+          "#e4f0ff"
+        ]
+      },
+      "slate-action-tint": {
+        "role": "primary",
+        "displayName": "Selection Wash (Slate)",
+        "canonical": "#22354d",
+        "tonalRamp": [
+          "#000b1f",
+          "#12253c",
+          "#2d415a",
+          "#4b5f7a",
+          "#697f9b",
+          "#8aa0bd",
+          "#afc6e4",
+          "#d9f1ff"
+        ]
+      },
+      "slate-danger": {
+        "role": "tertiary",
+        "displayName": "Error Red (Slate)",
+        "canonical": "#f08a80",
+        "tonalRamp": [
+          "#2f0000",
+          "#510000",
+          "#741918",
+          "#983b35",
+          "#bd5c54",
+          "#e27d74",
+          "#ffa398",
+          "#ffcdc1"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "title": {
+        "displayName": "Title",
+        "purpose": "Clause number + title (TitleLabel)."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "Sheet sections, masthead (HeadingLabel)."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "Default for controls, cells, prose."
+      },
+      "body-strong": {
+        "displayName": "Body Strong",
+        "purpose": "Table headers, primary button (StrongLabel)."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Field labels (FieldLabel)."
+      },
+      "caption": {
+        "displayName": "Caption",
+        "purpose": "Help, guide words, title-block keys, tooltips (CaptionLabel; ErrorLabel in danger)."
+      },
+      "code": {
+        "displayName": "Code",
+        "purpose": "Gallery usage blocks only."
+      }
+    },
+    "shadows": [
+      {
+        "name": "popup-lift",
+        "value": "0 3px 10px rgba(0,0,0,0.18)",
+        "purpose": "PopupMenu / Select list only; Godot ShadowSize 10, offset (0,3)."
+      }
+    ],
+    "focus": [
+      {
+        "name": "focus-frame",
+        "value": "2px solid ink, 2px outside, radius 2px",
+        "purpose": "Every focusable control; the only thing drawn outside a control."
+      }
+    ],
+    "strokes": [
+      {
+        "name": "dashed-rule",
+        "value": "1px, 3px dash / 3px gap (2/2 in checkbox and switch marks)",
+        "purpose": "Disabled and read-only: not available."
+      },
+      {
+        "name": "icon-stroke",
+        "value": "1.5px, square cap, miter join, 16px box",
+        "purpose": "Authored icon set."
+      }
+    ],
+    "motion": [],
+    "breakpoints": [],
+    "platform": "Godot 4.7 .NET desktop; tokens live in addons/gabarit/Tokens.cs (Paper, Slate presets), applied by ThemeBuilder.Build."
+  },
+  "components": [
+    {
+      "name": "Button",
+      "kind": "button",
+      "refersTo": "button",
+      "description": "Default action: paper, graphite rule; hover band, pressed filled ink, disabled dashed.",
+      "html": "<button class=\"ds-btn\">Save</button> <button class=\"ds-btn\" disabled>Delete preset</button>",
+      "css": ".ds-btn { font-family: 'D-DIN', 'DIN Alternate', 'Arial Narrow', sans-serif; font-variant-numeric: tabular-nums; font-size: 14px; height: 30px; padding: 4px 12px; background: #ffffff; color: #1b1c1e; border: 1px solid #7f8287; border-radius: 2px; cursor: pointer; } .ds-btn:hover { background: #e9e9e6; border-color: #1b1c1e; } .ds-btn:active { background: #1b1c1e; border-color: #1b1c1e; color: #ffffff; } .ds-btn:focus-visible { outline: 2px solid #1b1c1e; outline-offset: 2px; } .ds-btn:disabled { border-style: dashed; color: #55585c; background: #ffffff; cursor: default; }"
+    },
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The one action-coloured button per view.",
+      "html": "<button class=\"ds-btn-primary\"><svg width='16' height='16' viewBox='0 0 16 16'><g fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='square'><path d='M8 2.5v8M4.5 7 8 10.5 11.5 7M2.5 13.5h11'/></g></svg>Export</button>",
+      "css": ".ds-btn-primary { font-family: 'D-DIN', 'DIN Alternate', 'Arial Narrow', sans-serif; font-variant-numeric: tabular-nums; font-size: 14px; font-weight: 700; height: 30px; padding: 4px 12px; display: inline-flex; gap: 8px; align-items: center; background: #0b5cad; color: #ffffff; border: 1px solid #0b5cad; border-radius: 2px; cursor: pointer; } .ds-btn-primary:hover { background: #094e93; border-color: #094e93; } .ds-btn-primary:active { background: #1b1c1e; border-color: #1b1c1e; color: #ffffff; } .ds-btn-primary:focus-visible { outline: 2px solid #1b1c1e; outline-offset: 2px; }"
+    },
+    {
+      "name": "Flat Button",
+      "kind": "button",
+      "refersTo": "button-flat",
+      "description": "Toolbar button: no frame until hovered.",
+      "html": "<button class=\"ds-btn-flat\" aria-label=\"Refresh\"><svg width='16' height='16' viewBox='0 0 16 16'><g fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='square'><path d='M12.75 6.5A5 5 0 1 0 13 9.5M13 2.75V6.5H9.25'/></g></svg></button>",
+      "css": ".ds-btn-flat { height: 30px; padding: 4px 8px; background: transparent; color: #1b1c1e; border: 1px solid transparent; border-radius: 2px; cursor: pointer; } .ds-btn-flat:hover { background: #e9e9e6; border-color: #e9e9e6; } .ds-btn-flat:active { background: #1b1c1e; color: #ffffff; } .ds-btn-flat:focus-visible { outline: 2px solid #1b1c1e; outline-offset: 2px; }"
+    },
+    {
+      "name": "Text Field",
+      "kind": "input",
+      "refersTo": "text-field",
+      "description": "Label above, input, one caption slot for help or error.",
+      "html": "<label class=\"ds-field\"><span class=\"ds-field-label\">Output folder</span><input class=\"ds-input\" value=\"build/out/win64\"><span class=\"ds-field-note\">Relative to the project.</span></label>",
+      "css": ".ds-field { font-family: 'D-DIN', 'DIN Alternate', 'Arial Narrow', sans-serif; font-variant-numeric: tabular-nums; display: flex; flex-direction: column; gap: 4px; width: 320px; color: #1b1c1e; } .ds-field-label { font-size: 12px; font-weight: 700; } .ds-input { font: inherit; font-size: 14px; height: 30px; box-sizing: border-box; padding: 4px 8px; background: #ffffff; color: #1b1c1e; border: 1px solid #7f8287; border-radius: 2px; } .ds-input:focus { outline: none; border: 2px solid #1b1c1e; padding: 3px 7px; } .ds-field-note { font-size: 12px; color: #55585c; }"
+    },
+    {
+      "name": "Checkbox and Switch",
+      "kind": "custom",
+      "description": "States are marks: filled ink with check; action-filled slot with square carriage.",
+      "html": "<div class=\"ds-marks\"><svg width='16' height='16' viewBox='0 0 16 16'><rect x='0.5' y='0.5' width='15' height='15' rx='2' fill='#1b1c1e' stroke='#1b1c1e'/><path d='M4 8.25 6.75 11 12 5' fill='none' stroke='#ffffff' stroke-width='1.5' stroke-linecap='square'/></svg><svg width='16' height='16' viewBox='0 0 16 16'><rect x='0.5' y='0.5' width='15' height='15' rx='2' fill='#ffffff' stroke='#7f8287'/></svg><svg width='32' height='16' viewBox='0 0 32 16'><rect x='0.5' y='0.5' width='31' height='15' rx='2' fill='#0b5cad' stroke='#0b5cad'/><rect x='17' y='3' width='12' height='10' rx='1' fill='#ffffff'/></svg><svg width='32' height='16' viewBox='0 0 32 16'><rect x='0.5' y='0.5' width='31' height='15' rx='2' fill='#ffffff' stroke='#7f8287' stroke-dasharray='2 2'/><rect x='3' y='3' width='12' height='10' rx='1' fill='#d6d6d2'/></svg></div>",
+      "css": ".ds-marks { display: flex; gap: 16px; align-items: center; }"
+    },
+    {
+      "name": "DataGrid",
+      "kind": "custom",
+      "refersTo": "data-grid-row",
+      "description": "Fully ruled virtualized table with band header and guide-word footer.",
+      "html": "<div class=\"ds-grid\"><div class=\"ds-grid-row ds-grid-head\"><span>ID</span><span>Path</span><span class=\"ds-num\">Size (KB)</span></div><div class=\"ds-grid-row\"><span>00001</span><span>res://audio/sfx/material_000.tres</span><span class=\"ds-num\">2,699.5</span></div><div class=\"ds-grid-row ds-sel\"><span>00002</span><span>res://scenes/levels/texture_001.png</span><span class=\"ds-num\">445.7</span></div><div class=\"ds-grid-row\"><span>00003</span><span>res://scenes/ui/material_002.tres</span><span class=\"ds-num\">3,839.3</span></div><div class=\"ds-grid-foot\">Rows 1–3 of 10,000</div></div>",
+      "css": ".ds-grid { font-family: 'D-DIN', 'DIN Alternate', 'Arial Narrow', sans-serif; font-variant-numeric: tabular-nums; font-size: 14px; color: #1b1c1e; background: #ffffff; border: 1px solid #7f8287; width: 520px; } .ds-grid-row { display: grid; grid-template-columns: 70px 1fr 100px; height: 26px; border-bottom: 1px solid #d6d6d2; } .ds-grid-row > span { padding: 0 8px; line-height: 26px; border-left: 1px solid #d6d6d2; white-space: nowrap; overflow: hidden; } .ds-grid-row > span:first-child { border-left: none; } .ds-grid-row:not(.ds-grid-head):hover { background: #f2f2f0; } .ds-grid-head { height: 30px; background: #e9e9e6; font-weight: 700; border-bottom-color: #7f8287; } .ds-grid-head > span { line-height: 30px; } .ds-sel, .ds-sel:hover { background: #dce7f4; } .ds-num { text-align: right; } .ds-grid-foot { height: 26px; line-height: 26px; padding: 0 8px; background: #e9e9e6; border-top: 1px solid #7f8287; font-size: 12px; color: #55585c; }"
+    },
+    {
+      "name": "Tooltip",
+      "kind": "custom",
+      "refersTo": "tooltip",
+      "description": "The one inverted surface.",
+      "html": "<span class=\"ds-tip\">Sheet: switches every token at once</span>",
+      "css": ".ds-tip { font-family: 'D-DIN', 'DIN Alternate', 'Arial Narrow', sans-serif; font-variant-numeric: tabular-nums; font-size: 12px; background: #1b1c1e; color: #ffffff; padding: 6px 8px; border-radius: 2px; }"
+    },
+    {
+      "name": "Title Block",
+      "kind": "card",
+      "description": "Gallery sheet title block: ruled key/value cells.",
+      "html": "<div class=\"ds-tb\"><div><small>Component</small><b>DataGrid</b></div><div><small>Class</small>Gabarit.DataGrid</div><div><small>Version</small>0.1.0</div><div><small>Page</small>10 of 13</div></div>",
+      "css": ".ds-tb { font-family: 'D-DIN', 'DIN Alternate', 'Arial Narrow', sans-serif; font-variant-numeric: tabular-nums; font-size: 14px; display: inline-flex; color: #1b1c1e; background: #ffffff; border: 1px solid #7f8287; } .ds-tb > div { display: flex; flex-direction: column; gap: 2px; padding: 6px 16px 6px 12px; border-left: 1px solid #d6d6d2; } .ds-tb > div:first-child { border-left: none; } .ds-tb small { font-size: 12px; color: #55585c; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Standards Sheet",
+    "overview": "Every component is specified the way a DIN/ISO standard specifies a part: a numbered clause, a one-line normative sentence, a ruled table of states, a title block. The library ships this world as a Godot `Tokens` resource turned into a `Theme` by `ThemeBuilder`; the Gallery is the sheet that proves it. One ink, graphite rules at 1px, white paper on a warm-grey ground, and a single action blue that appears only where something can be acted on or has been selected.\n\nDensity is desktop density: 30px controls, 26px rows, a 4px unit. Form is drawn, not modelled: 1px frames, 2px corners at most, no gradients, flat fills. States are carried by marks wherever the component allows it (filled ink for pressed, a dashed rule for unavailable, a 2px ink frame outside the control for focus), and cells never change size with state. Where the build uses a fill for a state (hover band, selection tint) it is a quiet, same-size fill, never a glow.\n\nThe dark sheet, Slate, is the same sheet inverted: same token names, values swapped, same contrast rules. Everything visual flows from `Tokens`; a consumer re-skins by saving a `.tres` and overriding values.",
+    "keyCharacteristics": [
+      "One ink, one action colour, graphite rules; two sheets (Paper, Slate) sharing token names.",
+      "1px rules everywhere; radius 2px maximum, 1px on carriages.",
+      "States as marks: pressed = filled ink, disabled/read-only = dashed rule, focus = 2px ink frame 2px outside.",
+      "D-DIN grotesk with a generated tabular-figures face in front of it.",
+      "Fully ruled tables with numbered guide words in the footer.",
+      "Authored 16px line icons, one 1.5px square-capped stroke."
+    ],
+    "rules": [
+      {
+        "name": "The One Signal Rule",
+        "body": "The action blue marks what can be acted on or what is selected. It is never decoration, never a heading colour, never a border on a static surface. One primary button per view.",
+        "section": "colors"
+      },
+      {
+        "name": "The Same Names Rule",
+        "body": "Slate is not a second palette: it is the same token names with inverted values. New tokens are added to both presets or to neither.",
+        "section": "colors"
+      },
+      {
+        "name": "The Outline Contrast Rule",
+        "body": "`rule` must keep 3:1 against `paper` on every preset; `hairline` is allowed to be faint because it never bounds an interactive control alone.",
+        "section": "colors"
+      },
+      {
+        "name": "The Tabular Figures Rule",
+        "body": "Numbers are always set through the Tokens fonts, never a bare D-DIN instance: D-DIN's own digits are proportional and columns would wander.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two Weights Rule",
+        "body": "Regular and Bold only, at 12 / 14 / 18 / 30px. Hierarchy comes from size, weight and muted ink, not from new faces.",
+        "section": "typography"
+      },
+      {
+        "name": "The Fixed Slot Rule",
+        "body": "A cell never changes size with state. Error text replaces help text in the same line; focus draws outside the control; borders do not thicken except the field focus rule, which stays inside the same box.",
+        "section": "layout"
+      },
+      {
+        "name": "The Drawn Depth Rule",
+        "body": "Sheets, panels, tables and controls carry no shadow. If something needs separating, rule it or change its band.",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** take every colour, size and metric from `Tokens`; add a token to both Paper and Slate rather than hard-coding a value.",
+      "**Do** express states as marks first: filled ink for pressed, dashed rule for unavailable, 2px ink frame 2px outside for focus.",
+      "**Do** keep every spacing a multiple of the 4px unit and every control at 30px, every row at 26px.",
+      "**Do** route numbers through the Tokens fonts so figures stay tabular, and right-align numeric columns.",
+      "**Do** rule tables fully: graphite frame, hairline internal rules, band header.",
+      "**Do** draw new icons in the same 16px, 1.5px square-capped stroke."
+    ],
+    "donts": [
+      "**Don't** use the action blue for anything that cannot be acted on or is not selected.",
+      "**Don't** round corners beyond 2px, or add gradients, glows or coloured focus halos.",
+      "**Don't** add shadows to sheets, panels, tables or controls; the popup lift is the only one.",
+      "**Don't** let a state change a cell's size: no growing borders on rest controls, no error line that pushes the layout.",
+      "**Don't** introduce a third weight or a second text family beyond the code block's monospace."
+    ]
+  }
+}

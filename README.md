@@ -1,8 +1,11 @@
+![Gabarit banner](.github/banner.png)
+
 # Gabarit
 
-Desktop UI components for Godot 4 (.NET / C#): a token-driven theme for the native controls,
-plus the data controls Godot does not ship — a virtualized `DataGrid`, `ListView`,
-`PropertyInspector` and a labelled `Field`.
+Desktop UI components for Godot 4 .NET, specified like a standards sheet.
+
+A token-driven theme for the native controls, plus the data controls Godot does not ship:
+a virtualized `DataGrid`, `ListView`, `PropertyInspector` and a labelled `Field`.
 
 Status: 0.1.0, preview. MIT licensed (see `LICENSE`); fonts under the SIL OFL 1.1.
 
